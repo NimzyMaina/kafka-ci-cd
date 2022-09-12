@@ -38,6 +38,6 @@ jobs:
           ls -hal
       - name: Run dotnet Restore & Build
         run: |
-          cd src/kafka-ci-cd
+          cd src/Kafka
           dotnet restore
           dotnet build
