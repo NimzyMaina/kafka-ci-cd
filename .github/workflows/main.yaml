@@ -39,7 +39,7 @@ jobs:
       - name: Run dotnet restore & build
         id: build
         run: |
-          cd src/kafka
+          cd src/Kafka
           dotnet restore
           dotnet publish -c Release -o out
   changelog:
