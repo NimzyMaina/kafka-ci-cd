@@ -35,7 +35,7 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-          ls -hal
+          ls -a
       - name: Run dotnet restore & build
         id: build
         run: |
@@ -49,5 +49,5 @@ jobs:
       - name: Run Change logs
         run: |
            pwd
-           ls -hal
            cd /home/runner/work/kafka-ci-cd/kafka-ci-cd
+           ls -a
