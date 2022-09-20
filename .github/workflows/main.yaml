@@ -36,8 +36,14 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
           ls -hal
-      - name: Run dotnet Restore & Build
+      - name: Run dotnet restore & build
+        id: build
         run: |
-          cd src/Kafka
+          cd src/kafka
           dotnet restore
-          dotnet build
+          dotnet publish -c Release -o out
+  changelog:
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - run: ls -hal
