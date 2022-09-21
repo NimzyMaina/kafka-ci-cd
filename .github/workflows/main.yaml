@@ -45,10 +45,12 @@ jobs:
         id: build
         run: |
           cd src/Kafka
+          cat Dockerfile
           dotnet restore
           dotnet publish -c Release -o ~/out
           ls -a
           mv Dockerfile ~/out
+          ls -a
       - name: Conventional Changelog Action
         id: changelog
         uses: TriPSs/conventional-changelog-action@v3
