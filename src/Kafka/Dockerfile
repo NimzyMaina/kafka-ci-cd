@@ -1,5 +1,5 @@
 FROM mcr.microsoft.com/dotnet/aspnet:6.0
 WORKDIR /app
-COPY out .
+COPY . .
 EXPOSE 80
 ENTRYPOINT ["dotnet","Kafka.dll"]
