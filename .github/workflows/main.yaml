@@ -47,6 +47,7 @@ jobs:
           cd src/Kafka
           dotnet restore
           dotnet publish -c Release -o ~/out
+          ls -a
           cp Dockerfile ~/out
       - name: Conventional Changelog Action
         id: changelog
