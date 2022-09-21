@@ -224,19 +224,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Maina\\.nuget\\packages\\": {}
+    "/home/runner/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Maina\\projects\\kafka-ci-cd\\src\\Kafka\\Kafka.csproj",
+      "projectUniqueName": "/home/runner/work/kafka-ci-cd/kafka-ci-cd/src/Kafka/Kafka.csproj",
       "projectName": "Kafka",
-      "projectPath": "C:\\Users\\Maina\\projects\\kafka-ci-cd\\src\\Kafka\\Kafka.csproj",
-      "packagesPath": "C:\\Users\\Maina\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Maina\\projects\\kafka-ci-cd\\src\\Kafka\\obj\\",
+      "projectPath": "/home/runner/work/kafka-ci-cd/kafka-ci-cd/src/Kafka/Kafka.csproj",
+      "packagesPath": "/home/runner/.nuget/packages/",
+      "outputPath": "/home/runner/work/kafka-ci-cd/kafka-ci-cd/src/Kafka/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Maina\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/home/runner/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -284,7 +284,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/home/runner/.dotnet/sdk/6.0.401/RuntimeIdentifierGraph.json"
       }
     }
   }

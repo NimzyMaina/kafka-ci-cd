@@ -1,0 +1,11 @@
+/home/runner/out/Kafka
+/home/runner/out/appsettings.Development.json
+/home/runner/out/appsettings.json
+/home/runner/out/Kafka.dll
+/home/runner/out/Kafka.deps.json
+/home/runner/out/Kafka.runtimeconfig.json
+/home/runner/out/Kafka.pdb
+/home/runner/out/Microsoft.OpenApi.dll
+/home/runner/out/Swashbuckle.AspNetCore.Swagger.dll
+/home/runner/out/Swashbuckle.AspNetCore.SwaggerGen.dll
+/home/runner/out/Swashbuckle.AspNetCore.SwaggerUI.dll
