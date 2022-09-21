@@ -36,3 +36,8 @@
 /home/runner/work/kafka-ci-cd/kafka-ci-cd/src/Kafka/bin/Release/net6.0/out/out/appsettings.json
 /home/runner/work/kafka-ci-cd/kafka-ci-cd/src/Kafka/bin/Release/net6.0/out/out/Kafka.deps.json
 /home/runner/work/kafka-ci-cd/kafka-ci-cd/src/Kafka/bin/Release/net6.0/out/out/Kafka.runtimeconfig.json
+/home/runner/work/kafka-ci-cd/kafka-ci-cd/src/Kafka/bin/Release/net6.0/out/out/out/web.config
+/home/runner/work/kafka-ci-cd/kafka-ci-cd/src/Kafka/bin/Release/net6.0/out/out/out/appsettings.Development.json
+/home/runner/work/kafka-ci-cd/kafka-ci-cd/src/Kafka/bin/Release/net6.0/out/out/out/appsettings.json
+/home/runner/work/kafka-ci-cd/kafka-ci-cd/src/Kafka/bin/Release/net6.0/out/out/out/Kafka.deps.json
+/home/runner/work/kafka-ci-cd/kafka-ci-cd/src/Kafka/bin/Release/net6.0/out/out/out/Kafka.runtimeconfig.json
