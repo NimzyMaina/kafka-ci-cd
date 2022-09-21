@@ -48,7 +48,7 @@ jobs:
           dotnet restore
           dotnet publish -c Release -o ~/out
           ls -a
-          cp Dockerfile ~/out
+          mv Dockerfile ~/out
       - name: Conventional Changelog Action
         id: changelog
         uses: TriPSs/conventional-changelog-action@v3
