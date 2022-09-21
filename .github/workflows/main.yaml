@@ -104,5 +104,5 @@ jobs:
           context: .
           push: true
           tags: |
-            ghcr.io/NimzyMaina/kafka-ci-cd:v${{ steps.build.outputs.version}}
-            ghcr.io/NimzyMaina/kafka-ci-cd:latest
+            ghcr.io/nimzymaina/kafka-ci-cd:v${{ needs.build.outputs.version}}
+            ghcr.io/nimzymaina/kafka-ci-cd:latest
