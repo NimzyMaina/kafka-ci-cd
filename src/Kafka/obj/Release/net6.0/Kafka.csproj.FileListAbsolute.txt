@@ -26,3 +26,8 @@
 /home/runner/work/kafka-ci-cd/kafka-ci-cd/src/Kafka/obj/Release/net6.0/Kafka.genruntimeconfig.cache
 /home/runner/work/kafka-ci-cd/kafka-ci-cd/src/Kafka/obj/Release/net6.0/ref/Kafka.dll
 /home/runner/work/kafka-ci-cd/kafka-ci-cd/src/Kafka/bin/Release/net6.0/Dockerfile
+/home/runner/work/kafka-ci-cd/kafka-ci-cd/src/Kafka/bin/Release/net6.0/out/web.config
+/home/runner/work/kafka-ci-cd/kafka-ci-cd/src/Kafka/bin/Release/net6.0/out/appsettings.Development.json
+/home/runner/work/kafka-ci-cd/kafka-ci-cd/src/Kafka/bin/Release/net6.0/out/appsettings.json
+/home/runner/work/kafka-ci-cd/kafka-ci-cd/src/Kafka/bin/Release/net6.0/out/Kafka.deps.json
+/home/runner/work/kafka-ci-cd/kafka-ci-cd/src/Kafka/bin/Release/net6.0/out/Kafka.runtimeconfig.json
