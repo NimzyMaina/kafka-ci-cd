@@ -82,6 +82,11 @@ jobs:
             key: out
       - name: Run Docker build
         run: |
+           echo "================="
            pwd
+           echo "================="
+           ls -a
+           echo "================="
            ls -a ~/out
+           echo "================="
            cat ~/out/Dockerfile
