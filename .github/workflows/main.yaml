@@ -26,7 +26,7 @@ jobs:
       - uses: actions/cache@v2
         with:
           path: /home/runner/work/kafka-ci-cd/kafka-ci-cd/src/Kafka/out
-          key: out
+          key: out2
       - uses: actions/setup-dotnet@v2
         with:
           dotnet-version: '6.0.x'
@@ -79,7 +79,7 @@ jobs:
       - uses: actions/cache@v2
         with:
             path: /home/runner/work/kafka-ci-cd/kafka-ci-cd/src/Kafka/out
-            key: out
+            key: out2
       - name: Run Docker build
         run: |
            echo "================="
