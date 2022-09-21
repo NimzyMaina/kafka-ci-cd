@@ -27,7 +27,6 @@ jobs:
         with:
           path: ~/out
           key: out
-
       - uses: actions/setup-dotnet@v2
         with:
           dotnet-version: '6.0.x'
@@ -42,13 +41,30 @@ jobs:
           echo test, and deploy your project.
           ls -a
           pwd
-      - name: Run dotnet restore & build
+      - name: Run dotnet restore & publish
         id: build
         run: |
           cd src/Kafka
           dotnet restore
           dotnet publish -c Release -o ~/out
-  changelog:
+          cp Dockerfile ~/out
+      - name: Conventional Changelog Action
+        id: changelog
+        uses: TriPSs/conventional-changelog-action@v3
+        with:
+          github-token: ${{ secrets.CHANGELOG_RELEASE }}
+          output-file: "false"
+      - name: Create Release
+        uses: actions/create-release@v1
+        if: ${{ steps.changlog.outputs.skipped == 'false' }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.CHANGELOG_RELEASE }}
+        with:
+          tag_name: ${{ steps.changelog.outputs.tag }}
+          release_name: ${{ steps.changelog.outputs.clean_changelog }}
+      outputs:
+        version: ${{ steps.changelog.outputs.tag }}        
+  build-docker:
     runs-on: ubuntu-latest
     needs: build
     steps:
@@ -56,8 +72,8 @@ jobs:
         with:
             path: ~/out
             key: out
-      - name: Run Change logs
+      - name: Run Docker build
         run: |
            pwd
-           ls -a
            ls -a ~/out
+           cat ~/out/Dockerfile
