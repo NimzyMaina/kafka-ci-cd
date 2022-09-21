@@ -1,0 +1,25 @@
+{
+  "name": "kafka-ci-cd",
+  "version": "0.0.1",
+  "description": "Testing GitHub Actions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NimzyMaina/kafka-ci-cd.git"
+  },
+  "author": "Nimrod Maina",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NimzyMaina/kafka-ci-cd/issues"
+  },
+  "homepage": "https://github.com/NimzyMaina/kafka-ci-cd#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^17.1.2",
+    "@commitlint/config-conventional": "^17.1.0",
+    "husky": "^8.0.0"
+  }
+}
