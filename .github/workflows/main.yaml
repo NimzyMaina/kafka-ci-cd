@@ -90,7 +90,6 @@ jobs:
            ls -a /home/runner/work/kafka-ci-cd/kafka-ci-cd/src/Kafka/out
            echo "================="
            cat /home/runner/work/kafka-ci-cd/kafka-ci-cd/src/Kafka/out/Dockerfile
-           rm /home/runner/work/kafka-ci-cd/kafka-ci-cd/src/Kafka/out/Dockerfile
       - name: set up Docker builder
         uses: docker/setup-buildx-action@v1
       - name: log into GitHub Container Registry
