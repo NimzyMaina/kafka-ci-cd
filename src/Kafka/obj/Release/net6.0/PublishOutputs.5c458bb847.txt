@@ -1,3 +1,4 @@
+/home/runner/out/Dockerfile
 /home/runner/out/Kafka
 /home/runner/out/appsettings.Development.json
 /home/runner/out/appsettings.json
