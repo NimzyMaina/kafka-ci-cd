@@ -52,7 +52,7 @@ jobs:
           echo "================="
           ls -a
           echo "================="
-          mv Dockerfile ~/out
+          cp Dockerfile ~/out
           echo "================="
           ls -a ~/out
           echo "================="
