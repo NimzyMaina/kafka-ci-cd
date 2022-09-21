@@ -54,7 +54,7 @@ jobs:
           echo "================="
           mv Dockerfile ~/out
           echo "================="
-          ls -a
+          ls -a ~/out
           echo "================="
       - name: Conventional Changelog Action
         id: changelog
